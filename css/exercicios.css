@@ -1,0 +1,54 @@
+*{
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+
+}
+html, body {
+  min-height: 100vh;
+}
+
+main {
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch;
+  background: royalblue;
+}
+
+section {
+width: 40vw;
+display: flex;
+flex-direction: column;
+align-items: stretch;
+}
+
+.content {
+  padding: 1rem;
+  background: #ffffff;
+  border: 1px solid #bbbbbb;
+  display: flex;
+  justify-items: center;
+
+}
+
+.box {
+width: 5rem;
+height: 5rem;
+cursor: pointer;
+background:crimson;
+}
+
+.exercicio-1 {
+  background: indigo;
+  width: 10rem;
+}
+
+.exercicio-2 {
+  background: lawngreen;
+  transform: rotate(15deg);
+}
+
+.exercicio-4 {
+  background: mediumslateblue;
+}
